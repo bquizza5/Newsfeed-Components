@@ -35,6 +35,11 @@
   margin: 0;
   font-size: 48px;
 }
+@media (max-width: 680px) {
+  .header h1 {
+    font-size: 30px;
+  }
+}
 .menu-button {
   position: absolute;
   left: 20px;
@@ -74,7 +79,7 @@
   border-radius: 10px;
   background-color: white;
   position: relative;
-  height: 50px;
+  height: 55px;
   overflow: hidden;
   box-shadow: 2px 2px 2px lightgrey;
 }
@@ -83,9 +88,19 @@
   padding: 0;
   margin: 15px 0 0;
 }
+@media (max-width: 680px) {
+  .article h2 {
+    font-size: 20px;
+  }
+}
 .article .date {
   margin: 0;
   font-size: 14px;
+}
+@media (max-width: 680px) {
+  .article .date {
+    margin-top: 5px;
+  }
 }
 .article .close {
   position: absolute;
@@ -104,6 +119,10 @@
   cursor: pointer;
   transform: translate(-50%);
   background-color: #388E3C;
+}
+.article .expandButton:hover {
+  background-color: yellow;
+  color: #388E3C;
 }
 .article-open {
   height: 100%;
