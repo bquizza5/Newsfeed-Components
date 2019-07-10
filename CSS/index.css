@@ -127,6 +127,9 @@
 .article-open {
   height: 100%;
 }
+.hidden {
+  display: none;
+}
 html,
 body {
   margin: 0;
